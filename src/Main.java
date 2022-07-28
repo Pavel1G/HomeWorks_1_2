@@ -59,14 +59,14 @@ public class Main {
         double salaryDenisIndex = salaryDenis * 1.1;
         double salaryKristinaIndex = salaryKristina * 1.1;
 
-        System.out.println("Маша теперь получает " + salaryMariaIndex + " рублей. Годовой доход вырос на " +
-                (salaryMariaIndex - salaryMaria) * 12 + " рублей.");
+        System.out.println("Маша теперь получает " + (int) salaryMariaIndex + " рублей. Годовой доход вырос на " +
+                (int) (salaryMariaIndex - salaryMaria) * 12 + " рублей.");
 
-        System.out.println("Денис теперь получает " + salaryDenisIndex + " рублей. Годовой доход вырос на " +
-                (salaryDenisIndex - salaryDenis) * 12 + " рублей.");
+        System.out.println("Денис теперь получает " + (int) salaryDenisIndex + " рублей. Годовой доход вырос на " +
+                (int) (salaryDenisIndex - salaryDenis) * 12 + " рублей.");
 
-        System.out.println("Кристина теперь получает " + salaryKristinaIndex + " рублей. Годовой доход вырос на " +
-                (salaryKristinaIndex - salaryKristina) * 12 + " рублей.");
+        System.out.println("Кристина теперь получает " + (int) salaryKristinaIndex + " рублей. Годовой доход вырос на " +
+                (int) (salaryKristinaIndex - salaryKristina) * 12 + " рублей.");
 
 
     }

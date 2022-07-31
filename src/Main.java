@@ -1,7 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+    }
 
-        /* Первое задание */
+    /* Первое задание */
+    public static void task1(){
         byte b = 1;
         short s = 2;
         int i = 3;
@@ -13,17 +20,19 @@ public class Main {
         char c = 'o';
 
         boolean bool = true;
+    }
 
-
-        /* Второе задание */
+    /* Второе задание */
+    public static void task2(){
         double weightFirstBoxer = 78.2;
         double weightSecondBoxer = 82.7;
         System.out.println("Общий вес двух бойцов - " + (weightFirstBoxer + weightSecondBoxer) + " кг.");
         System.out.println("Разница в весе - " + (weightSecondBoxer - weightFirstBoxer) + " кг.");
         System.out.println();
+    }
 
-
-        /* Третье задание */
+    /* Третье задание */
+    public static void task3(){
         int weightOneBanana = 80;
         int weightMilk = 105;
         int weightIceCream = 100;
@@ -32,9 +41,10 @@ public class Main {
         double breakfast = (weightOneBanana * 5 + weightMilk * 2 + weightIceCream * 2 + weightEgg * 4) / 1000;
         System.out.println("Вес завтрака - " + breakfast + " кг.");
         System.out.println();
+    }
 
-
-        /* Четвертое задание */
+    /* Четвертое задание */
+    public static void task4(){
         int weightLoss = 7;
         double everyDayLoss250 = 0.25;
         double everyDayLoss500 = 0.5;
@@ -48,9 +58,11 @@ public class Main {
         System.out.println("Если худеть на 500 гр каждый день, то уйдет " + resultLoss500 + " дней до похудения.");
         System.out.println("В среднем уходит " + midResultLoss + " день на похудение.");
         System.out.println();
+    }
 
 
         /* Пятое задание */
+    public static void task5(){
         int salaryMaria = 67_760;
         int salaryDenis = 83_690;
         int salaryKristina = 76_230;
@@ -67,7 +79,5 @@ public class Main {
 
         System.out.println("Кристина теперь получает " + (int) salaryKristinaIndex + " рублей. Годовой доход вырос на " +
                 (int) (salaryKristinaIndex - salaryKristina) * 12 + " рублей.");
-
-
     }
 }

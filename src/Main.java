@@ -5,10 +5,13 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
+        task8();
     }
 
     /* Первое задание */
-    public static void task1(){
+    public static void task1() {
         byte b = 1;
         short s = 2;
         int i = 3;
@@ -23,16 +26,16 @@ public class Main {
     }
 
     /* Второе задание */
-    public static void task2(){
+    public static void task2() {
         double weightFirstBoxer = 78.2;
         double weightSecondBoxer = 82.7;
         System.out.println("Общий вес двух бойцов - " + (weightFirstBoxer + weightSecondBoxer) + " кг.");
-        System.out.println("Разница в весе - " + (weightSecondBoxer - weightFirstBoxer) + " кг.");
+        System.out.println("Разница в весе - " + Math.abs((weightFirstBoxer - weightSecondBoxer)) + " кг.");
         System.out.println();
     }
 
     /* Третье задание */
-    public static void task3(){
+    public static void task3() {
         int weightOneBanana = 80;
         int weightMilk = 105;
         int weightIceCream = 100;
@@ -44,7 +47,7 @@ public class Main {
     }
 
     /* Четвертое задание */
-    public static void task4(){
+    public static void task4() {
         int weightLoss = 7;
         double everyDayLoss250 = 0.25;
         double everyDayLoss500 = 0.5;
@@ -61,8 +64,8 @@ public class Main {
     }
 
 
-        /* Пятое задание */
-    public static void task5(){
+    /* Пятое задание */
+    public static void task5() {
         int salaryMaria = 67_760;
         int salaryDenis = 83_690;
         int salaryKristina = 76_230;
@@ -79,5 +82,34 @@ public class Main {
 
         System.out.println("Кристина теперь получает " + (int) salaryKristinaIndex + " рублей. Годовой доход вырос на " +
                 (int) (salaryKristinaIndex - salaryKristina) * 12 + " рублей.");
+        System.out.println();
+    }
+
+    /*Шестое задание*/
+    public static void task6() {
+        System.out.println("Даже жаль свое время на это шестое задание.");
+        System.out.println();
+    }
+
+    /*Седьмое задание*/
+    public static void task7() {
+        int a = 5;
+        int b = 7;
+
+        b = b + a;
+        a = b - a;
+        b = b - a;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println();
+    }
+
+    /* Восьмое задание */
+    public static void task8() {
+        int a = 261;
+        int b = (a / 10) % 10;
+        System.out.println(b);
+        System.out.println();
     }
 }
